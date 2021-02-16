@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App - Django</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>This is Django</h1>
+    <p>This is django</p>
+    <p> my name is bishnu silwal</p>
+    <button>Click here</button>
+    {% for item in todo %}
+        <li>
+        <strong> {{item}} </strong><br>
+        <p> {{item.description}} </p>
+        </li>
+    {% endfor %}
+</body>
+</html
